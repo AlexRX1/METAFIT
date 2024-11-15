@@ -276,6 +276,10 @@ a:focus {
   color: #00204a;
 }
 
+.detail-box h3{
+  margin-left: 140px !important;
+}
+
 .slider_section .detail-box h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -483,8 +487,47 @@ a:focus {
 }
 
 .about_section {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+  .about_section .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Ajusta o tamanho e espaçamento dos textos */
+  .about_section .heading_container h2,
+  .about_section .heading_container p,
+  .about_section .detail-box p {
+    padding: 0;
+    padding-right: 25px;
+    font-size: 1em;
+  }
+  .about_section .detail-box h3{
+    padding-right: 280px;
+    font-size: 1em;
+    width: 100%;
+
+  }
+
+  /* Reduz o espaçamento nas laterais */
+  .about_section .container {
+    padding: 0 15px;
+  }
+
+  /* Imagem centralizada */
+  .about_section .img-box {
+    margin-bottom: 20px;
+  }
+
+  /* Espaço entre elementos */
+  .about_section .detail-box {
+    padding-top: 15px;
+  }
 }
 
 .about_section .heading_container {
@@ -507,6 +550,9 @@ a:focus {
 
 .about_section .detail-box p {
   margin-top: 15px;
+  margin-left: 30px;
+  text-align: justify; 
+  line-height: 1.6;
 }
 
 .about_section .detail-box a {
@@ -775,6 +821,7 @@ a:focus {
 
 /* client section end */
 .info_section {
+  display: flex;
   background-color: #00204a;
   color: #ffffff;
   padding: 45px 0 15px 0;
