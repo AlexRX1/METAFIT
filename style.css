@@ -245,8 +245,7 @@ a:focus {
   top: 0;
 }
 
-/*end header section*/
-/* slider section */
+
 .slider_section {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -499,7 +498,7 @@ a:focus {
     text-align: center;
   }
 
-  /* Ajusta o tamanho e espaçamento dos textos */
+ 
   .about_section .heading_container h2,
   .about_section .heading_container p,
   .about_section .detail-box p {
@@ -514,17 +513,17 @@ a:focus {
 
   }
 
-  /* Reduz o espaçamento nas laterais */
+
   .about_section .container {
     padding: 0 15px;
   }
 
-  /* Imagem centralizada */
+
   .about_section .img-box {
     margin-bottom: 20px;
   }
 
-  /* Espaço entre elementos */
+  
   .about_section .detail-box {
     padding-top: 15px;
   }
@@ -720,8 +719,7 @@ a:focus {
   color: #00bbf0;
 }
 
-/*team section end*/
-/* client section start */
+
 .client_section .heading_container {
   margin-bottom: 30px;
 }
@@ -819,7 +817,7 @@ a:focus {
   color: #00204a;
 }
 
-/* client section end */
+
 .info_section {
   display: flex;
   background-color: #00204a;
@@ -958,7 +956,7 @@ a:focus {
   background-color: #007fa4;
 }
 
-/* footer section*/
+
 .footer_section {
   position: relative;
   background-color: #ffffff;
